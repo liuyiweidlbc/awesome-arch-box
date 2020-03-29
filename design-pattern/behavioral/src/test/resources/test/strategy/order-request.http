@@ -1,0 +1,18 @@
+POST http://localhost:8080/ota/hotel/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"supplierCode":"CTRIP"}
+
+### ctrip order request
+
+POST http://localhost:8080/ota/hotel/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"supplierCode":"MEITUAN"}
+
+### meituan
+
