@@ -1,6 +1,6 @@
 package com.openmindstorm.decorator.thirdparty.context;
 
-import com.openmindstorm.decorator.dto.OrderDetail;
+import com.openmindstorm.decorator.pojo.dto.OrderDetail;
 import com.openmindstorm.decorator.thirdparty.annotation.CancelHandle;
 import com.openmindstorm.decorator.thirdparty.annotation.SupplierPlatform;
 import com.openmindstorm.decorator.thirdparty.strategy.ThirdPartyPlatformStrategy;

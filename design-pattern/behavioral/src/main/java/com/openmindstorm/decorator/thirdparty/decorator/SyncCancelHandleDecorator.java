@@ -1,6 +1,6 @@
 package com.openmindstorm.decorator.thirdparty.decorator;
 
-import com.openmindstorm.decorator.dto.OrderDetail;
+import com.openmindstorm.decorator.pojo.dto.OrderDetail;
 import com.openmindstorm.decorator.thirdparty.decorator.cancel.AbstractCancelDecorator;
 import com.openmindstorm.decorator.thirdparty.strategy.ThirdPartyPlatformStrategy;
 import lombok.extern.slf4j.Slf4j;

@@ -1,6 +1,6 @@
-package com.openmindstorm.decorator.client;
+package com.openmindstorm.decorator.controller;
 
-import com.openmindstorm.decorator.dto.OrderDetail;
+import com.openmindstorm.decorator.pojo.dto.OrderDetail;
 import com.openmindstorm.decorator.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

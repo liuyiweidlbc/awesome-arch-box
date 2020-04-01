@@ -1,6 +1,6 @@
 package com.openmindstorm.decorator.thirdparty.strategy;
 
-import com.openmindstorm.decorator.dto.OrderDetail;
+import com.openmindstorm.decorator.pojo.dto.OrderDetail;
 
 /**
  * 第三方平台策略类

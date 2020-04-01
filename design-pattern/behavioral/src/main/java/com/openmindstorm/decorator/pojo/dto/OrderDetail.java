@@ -1,4 +1,4 @@
-package com.openmindstorm.decorator.dto;
+package com.openmindstorm.decorator.pojo.dto;
 
 import lombok.Data;
 

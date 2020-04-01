@@ -1,4 +1,4 @@
-package com.openmindstorm.strategy.client;
+package com.openmindstorm.strategy.controller;
 
 import com.openmindstorm.strategy.pojo.dto.OrderDetail;
 import com.openmindstorm.strategy.service.OrderService;
