@@ -1,0 +1,18 @@
+POST http://localhost:8080/ota/hotel/orders/cancel
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"supplierCode":"CTRIP"}
+
+### 取消订单 （同步）
+
+POST http://localhost:8080/ota/hotel/orders/cancel
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"supplierCode":"TUNIU"}
+
+### 取消订单（异步）
+
