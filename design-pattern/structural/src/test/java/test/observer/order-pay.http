@@ -1,0 +1,8 @@
+POST http://localhost:8081/ota/hotel/orders/pay
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"supplierCode":"CTRIP"}
+
+### 订单支付 （同步）
