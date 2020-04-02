@@ -23,6 +23,7 @@ public class OrderServiceImpl extends Observable implements OrderServcie, Initia
 
     @Override
     public void afterPropertiesSet() throws Exception {
+        //1.添加观察者
         addObserver(paySuccessObserver);
         addObserver(payFailureObserver);
     }
@@ -31,7 +32,7 @@ public class OrderServiceImpl extends Observable implements OrderServcie, Initia
     public boolean payOrder(OrderDetail order) {
         log.info("observer pay order ");
 
-        //observable 通知所有观察者
+        //observable 2.通知观察者（所有）
         super.setChanged();
         super.notifyObservers("{ order } pay successful or failure with params");
         return true;
