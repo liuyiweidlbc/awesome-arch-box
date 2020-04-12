@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>behavioral</module>
         <module>structural</module>
+        <module>behavioral</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -13,7 +13,7 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.com.openmindstorm</groupId>
+    <groupId>com.openmindstorm</groupId>
     <artifactId>design-pattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>design-pattern</name>
