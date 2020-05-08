@@ -15,7 +15,7 @@ public class OrderController {
     public String createOrder(@PathVariable String category) {
 
         OrderService orderService = null;
-        if (category.equals("0")) {
+        if ("0".equals(category)) {//ref strategy pattern handle way
             orderService = BehavioralApplication.getBean(DomesticOrderService.class);
         } else {
             orderService = BehavioralApplication.getBean(InternationalOrderService.class);
