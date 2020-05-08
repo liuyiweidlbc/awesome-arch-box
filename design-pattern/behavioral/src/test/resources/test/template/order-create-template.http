@@ -1,0 +1,8 @@
+POST http://localhost:8080/orders/0
+Cache-Control: no-cache
+### 国内订单
+
+POST http://localhost:8080/orders/1
+Cache-Control: no-cache
+### 国际订单
+
