@@ -22,20 +22,4 @@ public class AsyncCancelHandleDecorator extends AbstractCancelDecorator {//conte
         log.info("AsyncCancelHandleDecorator handling ...");
     }
 
-
-    //合理拆分为4个策略后， 以下不必要的方法可以分别放到各自的装饰器里
-    @Override
-    public boolean createOrder() {
-        return false;
-    }
-
-    @Override
-    public boolean payOrder() {
-        return false;
-    }
-
-    @Override
-    public OrderDetail queryOrder() {
-        return null;
-    }
 }
